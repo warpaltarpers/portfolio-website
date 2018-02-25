@@ -1,5 +1,27 @@
-#nametitle {
-  font-family: // Add Balloon when owned;
+@font-face {
+  font-family:"Balloon Extra Bold";
+  src:url("design\fonts\BALLOON1.eot") format("eot"),
+      url("design\fonts\BALLOON1.woff") format("woff"),
+      url("design\fonts\BALLOON1.ttf") format("truetype"),
+      url("design\fonts\BALLOON1.svg") format("svg");
+  font-weight:normal;
+  font-style:normal;
+}
+
+.jumbotron {
+  background-color: #de1738;
+  color: white;
+}
+
+.jumbotron h3 {
+  font-style: italic;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.nametitle {
+  font-family: "Balloon Extra Bold";
   text-align: center;
   color: white;
+  font-size: 4rem;
 }
