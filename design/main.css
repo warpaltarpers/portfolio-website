@@ -1,10 +1,5 @@
-@font-face {
-    font-family: "BalloonEB";
-    src: url("Balloon Extra Bold.ttf");
-}
-
 #nametitle {
-  font-family: "BalloonEB";
+  font-family: // Add Balloon when owned;
   text-align: center;
-  color: red;
+  color: white;
 }
