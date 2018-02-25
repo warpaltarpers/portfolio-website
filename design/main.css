@@ -1,9 +1,9 @@
 @font-face {
   font-family:"Balloon Extra Bold";
-  src:url("design\fonts\BALLOON1.eot") format("eot"),
-      url("design\fonts\BALLOON1.woff") format("woff"),
-      url("design\fonts\BALLOON1.ttf") format("truetype"),
-      url("design\fonts\BALLOON1.svg") format("svg");
+  src:local("design/fonts/BALLOON1.eot") format("eot"),
+      local("design/fonts/BALLOON1.woff") format("woff"),
+      local("design/fonts/BALLOON1.ttf") format("truetype"),
+      local("design/fonts/BALLOON1.svg") format("svg");
   font-weight:normal;
   font-style:normal;
 }
