@@ -9,16 +9,16 @@ font-family: 'Old Standard TT', serif;
   color: white;
 }
 
+.jumbotron h1 {
+  font-family: "Vampiro One", cursive;
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+}
+
 .jumbotron h3 {
   font-family: "Old Standard TT", serif;
   font-style: italic;
   text-align: center;
   font-size: 1.5rem;
-}
-
-.nametitle {
-  font-family: "Vampiro One", cursive;
-  text-align: center;
-  color: white;
-  font-size: 4rem;
 }
