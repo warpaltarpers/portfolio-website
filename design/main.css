@@ -1,16 +1,23 @@
+/*
+HOW TO ADD VAMPIRO ONE AND OLD STANDARD TT IN CSS
+font-family: 'Vampiro One', cursive;
+font-family: 'Old Standard TT', serif;
+*/
+
 .jumbotron {
   background-color: #de1738;
   color: white;
 }
 
 .jumbotron h3 {
+  font-family: "Old Standard TT", serif;
   font-style: italic;
   text-align: center;
   font-size: 1.5rem;
 }
 
 .nametitle {
-  font-family: "Balloon Extra Bold";
+  font-family: "Vampiro One", cursive;
   text-align: center;
   color: white;
   font-size: 4rem;
