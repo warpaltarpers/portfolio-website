@@ -13,12 +13,31 @@ font-family: 'Old Standard TT', serif;
   font-family: "Vampiro One", cursive;
   text-align: center;
   color: white;
-  font-size: 4rem;
+  font-size: 7vw;
 }
 
 .jumbotron h3 {
   font-family: "Old Standard TT", serif;
   font-style: italic;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 3vw;
+}
+
+.navigation {
+  background-color: #de1738;
+  padding: 1vw 0vw 1vw 0vw;
+  margin-top: -10px;
+}
+
+.navigation ul li a {
+  font-family: "Old Standard TT", serif;
+  font-size: 2.5vw;
+  color: white;
+}
+
+.navigation ul li a:hover {
+  font-family: "Old Standard TT", serif;
+  font-size: 2.5vw;
+  font-style: italic;
+  color: #cccccc;
 }
