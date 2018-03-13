@@ -1,27 +1,47 @@
-@font-face {
-  font-family:"Balloon Extra Bold";
-  src:local("design/fonts/BALLOON1.eot") format("eot"),
-      local("design/fonts/BALLOON1.woff") format("woff"),
-      local("design/fonts/BALLOON1.ttf") format("truetype"),
-      local("design/fonts/BALLOON1.svg") format("svg");
-  font-weight:normal;
-  font-style:normal;
-}
+/*
+HOW TO ADD VAMPIRO ONE AND OLD STANDARD TT IN CSS
+font-family: 'Vampiro One', cursive;
+font-family: 'Old Standard TT', serif;
+*/
 
 .jumbotron {
   background-color: #de1738;
   color: white;
 }
 
-.jumbotron h3 {
-  font-style: italic;
-  text-align: center;
-  font-size: 1.5rem;
-}
-
-.nametitle {
-  font-family: "Balloon Extra Bold";
+.jumbotron h1 {
+  font-family: "Vampiro One", cursive;
   text-align: center;
   color: white;
-  font-size: 4rem;
+  font-size: 5vw;
+}
+
+.jumbotron h3 {
+  font-family: "Old Standard TT", serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+.navigation {
+  background-color: #de1738;
+  padding: 1vw 0vw 1vw 0vw;
+  margin-top: -10px;
+}
+
+.navigation ul li a {
+  font-family: "Old Standard TT", serif;
+  font-size: 1.5vw;
+  color: white;
+}
+
+.navigation ul li a:hover {
+  font-family: "Old Standard TT", serif;
+  font-size: 1.5vw;
+  font-style: italic;
+  color: #cccccc;
+}
+
+.underbar {
+  padding-top: 20px;
 }
