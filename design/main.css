@@ -41,3 +41,7 @@ font-family: 'Old Standard TT', serif;
   font-style: italic;
   color: #cccccc;
 }
+
+.underbar {
+  padding-top: 20px;
+}
