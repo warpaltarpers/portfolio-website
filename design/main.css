@@ -23,33 +23,28 @@ font-family: 'Old Standard TT', serif;
   font-size: 2.5vw;
 }
 
-#abouthead {
-  padding-bottom: 15px;
-}
-
-#goback {
+.jumbotron h3 a {
   font-family: "Old Standard TT", serif;
   font-size: 1.5vw;
   color: white;
 }
 
-#goback:hover {
+.jumbotron h3 a:hover {
   font-family: "Old Standard TT", serif;
   font-size: 1.5vw;
   font-style: italic;
   color: #cccccc;
-}
-
-#goback:visited {
-  font-family: "Old Standard TT", serif;
-  font-size: 1.5vw;
-  color: white;
+  text-decoration: none;
 }
 
 .navigation {
   background-color: #de1738;
   padding: 1vw 0vw 1vw 0vw;
   margin-top: -10px;
+}
+
+#abouthead {
+  padding-bottom: 15px;
 }
 
 .navigation ul li a {
@@ -87,4 +82,22 @@ font-family: 'Old Standard TT', serif;
 
 #objective {
   font-style: italic;
+}
+
+.fa-github-square {
+  color: black;
+  padding-left: 20px;
+}
+
+.fa-github-square:hover {
+  color: #AAAAAA;
+  padding-left: 20px;
+}
+
+.fa-linkedin {
+  color: black;
+}
+
+.fa-linkedin:hover {
+  color: #AAAAAA;
 }
