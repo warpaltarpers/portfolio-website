@@ -16,13 +16,21 @@
     <div class="wrapper">
       <header>
         <h1>Maxwell Walters</h1>
-        <p>Software Engineering Student and Amazon Alexa Student Developer</p>
+        <p>Amazon Alexa Student Developer, horror movie fanatic, foodie, rock climber, photographer, and Software Engineering student at Miami University</p>
+        <img src="./img/email.svg" alt="email" width="12px"><a href="mailto:someone@example.com?Subject=Hello%20again" target="_top"> Email</a><br>
         <img src="./img/github.svg" alt="github" width="12px"><a href="https://github.com/warpaltarpers" target="_blank"> GitHub</a><br>
         <img src="./img/linkedin.svg" alt="linkedin" width="12px"><a href="https://www.linkedin.com/in/waltersmax/" target="_blank"> LinkedIn</a><br>
+        <img src="./img/resume.png" alt="resume" width="12px"><a id="resumeclick"> Resume</a><br><br>
+        <h2>Recent Applications</h2>
+        <p><a href="bit.ly/cloutclinic" target="_blank">Tabasko Sweet's Mobile Clout Clinic</a> - <small>Amazon Alexa</small></p>
+        <p><a href="https://warpaltarpers.github.io/handwritr/" target="_blank">Handwritr</a> - <small>JS Web App</small></p>
+        <p><a href="amzn.to/2HwSnLd" target="_blank">RedHawks Facts</a> - <small>Amazon Alexa</small></p>
       </header>
       <section>
-        <p>Hi there, my name is Maxwell Walters, and I am a 3rd year Software Engineering major at <a target="_blank" href="http://miamioh.edu/cec/academics/departments/cse/index.html">Miami University</a> in Oxford, OH.
-           I've been coding for about 4 years, with my most commonly used languages being Java, JavaScript, HTML, and CSS. I also received an <a id="devdip">Amazon Alexa Student Developer Diploma</a> on August 31, 2017.</p>
+        <h2>Hey there!</h2>
+        <p>I am a 3rd year Software Engineering major at <a target="_blank" href="http://miamioh.edu/cec/academics/departments/cse/index.html">Miami University</a> in Oxford, OH.
+           I've been coding for about 4 years, with my most commonly used languages being Java, JavaScript, HTML, and CSS. I also received an
+          <a id="devdip">Amazon Alexa Student Developer Diploma</a> on August 31, 2017.</p>
         <p>I'm currently seeking a Summer 2019 internship.</p>
         <p>You can find my projects on <a href="https://github.com/warpaltarpers" target="_blank">GitHub</a>.</p>
         <img id="edgysmall" src="./img/edgysmall-1.jpg" alt="Max standing in a forest looking like he's about to drop the most fire alt-rock album of 2010">
@@ -30,6 +38,10 @@
         <div id="dipmodal" class="modal">
           <span class="close">&times;</span>
           <embed class="modal-content" id="modaldip" src="./docs/alexaDevDiploma.pdf"/>
+        </div>
+        <div id="resmodal" class="modal">
+          <span class="close">&times;</span>
+          <embed class="modal-content" id="modalres" src="./docs/resume.pdf"/>
         </div>
       </section>
       <footer>
@@ -39,6 +51,7 @@
       </footer>
     </div>
     <script src="javascripts/modal.js"></script>
+    <script src="javascripts/resmodal.js"></script>
     <script src="javascripts/scale.fix.js"></script>
   </body>
 </html>
