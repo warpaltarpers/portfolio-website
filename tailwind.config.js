@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
@@ -14,6 +16,10 @@ module.exports = {
       power: ['"Rubik Mono One"', 'sans-serif'],
       sans: ['"Open Sans"', 'sans-serif'],
       mono: ['IBM Plex Mono', 'Consolas']
+    },
+    screens: {
+      'itty-bitty': '475px',
+      ...defaultTheme.screens,
     }
   },
   plugins: [],
