@@ -1,0 +1,8 @@
+ul li::before {
+  content: "\2022";
+  color: #de5959;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1;
+}
