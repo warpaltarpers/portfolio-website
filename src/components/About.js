@@ -16,11 +16,11 @@ function About() {
           <li>HTML & CSS</li>
           <li>React.js</li>
         </ul>
-        <ul className='list ml-12'>
+        <ul className='list ml-10'>
           <li>TailwindCSS</li>
           <li>Unity & C#</li>
-          <li>Git</li>
           <li>Jenkins CI/CD</li>
+          <li>Git</li>
         </ul>
       </div>
     </>
